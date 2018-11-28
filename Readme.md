@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Rauf Gadzhiev](https://up.htmlacademy.ru/htmlcss/23/user/484765).
-* Наставник: `Неизвестно`.
+* Наставник:[Алим Нагоев](https://htmlacademy.ru/profile/id911531).
 
 ---
 
