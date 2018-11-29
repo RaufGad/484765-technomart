@@ -3,18 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-
+    <style>
+    body {
+      background: skyblue;
+    }</style>
   </head>
   <body>
     <header class="header">
         <div class="header-top">
         <a class="header-logo">Техномарт</a>
         <form class="header-form">
-          <input type="text" name="main-search" value="поиск">
+          <img src="img/icon-search.svg" alt="поиск"> <input type="text" name="main-search" value="поиск">
         </form>
         <div class="header-order">
-          <a class="header-order__bookmarks" href="#">закладки</a>
-          <a class="cart" href="-header-order__cart.html">корзина</a>
+          <a class="header-order__bookmarks" href="#"><img src="img/icon-bookmark.svg" alt="закладки"> закладки</a>
+          <a class="cart" href="-header-order__cart.html"><img src="img/cart-icon.svg" alt="корзина"> корзина</a>
           <a class="chekout" href="header-order__checkout.html">Оформить заказ</a>
         </div>
       </div>
@@ -50,14 +53,14 @@
       <section class="advantages">
           <h2 class="visualy-hidden">Преимущества</h2>
           <div class="advantages-row">
-            <div class="advantages-item"></div>
-            <div class="advantages-item"></div>
-            <div class="advantages-item"></div>
+            <div class="advantages-item advantages-item-mats"><img src="img/icon-mats.svg" alt=""></div>
+            <div class="advantages-item advantages-item-instrument"><img src="img/icon-instrument.svg" alt=""></div>
+            <div class="advantages-item"><img src="img/icon-tech.svg" alt=""></div>
           </div>
           <div>
-            <div class="advantages-slider"></div>
-            <div class="advantages-item"></div>
-            <div class="advantages-item"></div>
+            <div class="advantages-slider"><img src="img/drills-slider.jpg" alt=""></div>
+            <div class="advantages-item advantages-item-discount"><img src="img/icon-discount.svg" alt=""></div>
+            <div class="advantages-item-delivery"><img src="img/icon-delivery.svg" alt=""></div>
           </div>
       </section>
       <section class="popular-goods">
@@ -67,16 +70,16 @@
         </section>
         <section class="popular-goods-list">
           <div class="popular-goods-item">
-            <img class="popular-goods-item__img" src="#" alt="bfg-9000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 9000</h3><p class="popular-goods-item__old-cost">32500р.</p>/<p class="popular-goods-item__new-cost">25500p.</p>
+            <img class="popular-goods-item__img" src="#" alt="bfg-9000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 9000</h3><p class="popular-goods-item__old-cost"><img src="img/bfg9000.jpg" alt=""> 32500р.</p>/<p class="popular-goods-item__new-cost">25500p.</p>
           </div>
           <div class="popular-goods-item">
-            <img class="popular-goods-item__img" src="#" alt="bfg-3000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 3000</h3><p class="popular-goods-item__old-cost">22500р.</p>/<p class="popular-goods-item__new-cost">15500p.</p>
+            <img class="popular-goods-item__img" src="#" alt="bfg-3000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 3000</h3><p class="popular-goods-item__old-cost"><img src="img/bfg3000.jpg" alt="">22500р.</p>/<p class="popular-goods-item__new-cost">15500p.</p>
           </div>
           <div class="popular-goods-item">
-            <img class="popular-goods-item__img" src="#" alt="bfg-6000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 6000</h3><p class="popular-goods-item__old-cost">30500р.</p>/<p class="popular-goods-item__new-cost">25500p.</p>
+            <img class="popular-goods-item__img" src="#" alt="bfg-6000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 6000</h3><p class="popular-goods-item__old-cost"><img src="img/bfg6000.jpg" alt="">30500р.</p>/<p class="popular-goods-item__new-cost">25500p.</p>
           </div>
           <div class="popular-goods-item popular-goods-item-new">
-            <img class="popular-goods-item__img" src="#" alt="bfg-2000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 2000</h3>/<p class="popular-goods-item__new-cost">25500p.</p>
+            <img class="popular-goods-item__img" src="#" alt="bfg-2000"><h3 class="popular-goods-item__head">Перфоратор BOSCH BFG 2000</h3>/<p class="popular-goods-item__new-cost"><img src="img/bfg2000.jpg" alt="">25500p.</p>
           </div>     
         </section>
       </section>
@@ -86,14 +89,14 @@
           <a class="popular-brands-all popular-all" href="brands.html">все производители</a>
         </section>
         <section class="popular-brands-list">
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="bosch"></a></div>
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="makita"></a></div>
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="dewalt"></a></div>
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="interskol"></a></div>
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="hitachi"></a></div>
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="lg"></a></div>
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="aeg"></a></div>
-          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="metabo"></a></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="bosch"><img src="img/bosch.jpg" alt="bosch"></a></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="makita"></a><img src="img/makita.jpg" alt="makita"></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="dewalt"></a><img src="img/de-walt.jpg" alt="dewalt"></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="interskol"></a><img src="img/interscol.jpg" alt="interscol"></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="hitachi"></a><img src="img/hitachi.jpg" alt="hitachi"></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="lg"></a><img src="img/lg.jpg" alt="lg"></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="aeg"></a><img src="img/aeg.jpg" alt="aeg"></div>
+          <div class="popular-brands-item"><a href="#"><img class="popular-brands-item__image" src="#" alt="metabo"></a><img src="img/metabo.jpg" alt="metabo"></div>
         </section>
       </section>
       <section class="services">
@@ -109,17 +112,17 @@
               <div class="service-tabs-content-item">
                <h3 class="services-tabs-head">Доставка</h3>   
                <p class="service-tabs-text">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть  уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
-               <img class="service-tabs-image" src="#" alt="Гарантия">
+               <img class="service-tabs-image" src="img/garanty.jpg" alt="Гарантия">
               </div>
               <div class="service-tabs-content-item">
                 <h3 class="services-tabs-head">Гарантия</h3>   
                <p class="service-tabs-text">Мы с удовольствием доставим ваш товар прямо </p><p> к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-               <img class="service-tabs-image" src="#" alt="Доставка">
+               <img class="service-tabs-image" src="img/delivery-slider-logo.jpg" alt="Доставка">
               </div>
               <div class="service-tabs-content-item">
                 <h3 class="services-tabs-head">Кредит</h3>   
                 <p class="service-tabs-text">КредитЗалезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p><a href="#" class="credit-button">отправить  заявку</a>
-                <img class="service-tabs-image" src="#" alt="Кредит">
+                <img class="service-tabs-image" src="img/credit.jpg" alt="Кредит">
               </div>
             </div>
           </div>
@@ -139,7 +142,7 @@
         <div>
           <h2>Контакты</h2>
           <p class="about-text">Вы можете забрать товар сами,заехав в наш офис:</p>
-          <a href="#" class="about-map"></a>
+          <a href="#" class="about-map"><img src="img/map-info.jpg" alt="карта"></a>
           <button class="about-callback">Заблудились? НапиШИТЕ НАМ!</a>
         </div> 
       </section>
@@ -171,9 +174,9 @@
       <div class="footer-row-bottom">
         <p class="copyright">© 2010–2017 Компания «Техномарт»<br>Все права защищены</p>
         <ul class="social">
-            <li class="social social-vk"><a href="#"><img src="#" alt="VK"></a></li>
-            <li class="social social-fb"><a href="#"><img src="#" alt="FB"></a></li>
-            <li class="social social-ig"><a href="#"><img src="#" alt="IG"></a></li>
+            <li class="social social-vk"><a href="#"><img src="img/vk-icon.svg" alt="VK"></a></li>
+            <li class="social social-fb"><a href="#"><img src="img/fb-icon.svg" alt="FB"></a></li>
+            <li class="social social-ig"><a href="#"><img src="img/insta-icon.svg" alt="insta"></a></li>
         </ul>
         <div>
           <p class="feed">Обратная связь:>
