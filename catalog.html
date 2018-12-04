@@ -15,8 +15,8 @@
          <img src="img/icon-search.svg" alt=""> <input type="text" name="main-search" value="поиск">
         </form>
         <div class="header-order">
-          <img src="img/icon-bookmark.svg" alt=""> <a class="header-order__bookmarks" href="#">закладки</a>
-          <img src="img/cart-icon.svg" alt="">   <a class="cart" href="-header-order__cart.html">корзина</a>
+          <img src="img/icon-bookmark.svg" alt="закладки"> <a class="header-order__bookmarks" href="#">закладки</a>
+          <img src="img/cart-icon.svg" alt="корзина">   <a class="cart" href="-header-order__cart.html">корзина</a>
           <a class="chekout" href="header-order__checkout.html">Оформить заказ</a>
         </div>
       </div>
@@ -31,7 +31,7 @@
           <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
         <div class="header-cabinet">
-           <img src="img/icon-user.svg" alt=""> <p>Равшан Джамшутович <img src="img/icon-logout.svg" alt=""> <input type="submit" name="exit"></p>
+           <img src="img/icon-user.svg" alt="иконка пользователя"> <p>Равшан Джамшутович  <button type="submit" name="exit"><img src="img/icon-logout.svg" alt="выход"></button></p>
             <a class="my-cart" href="mycart.html">мои заказы</a>
             <a class="my-office" href="myoffice.html">мой кабинет</a>
         </div>
@@ -55,7 +55,7 @@
         <main class="container">            
             <!--хлебные крошки-->
             <div class="breadcrumps">
-               <img src="img/icon-home.svg" alt=""> <ul class="breadcrumps-list">
+               <img src="img/icon-home.svg" alt="Главная страница"> <ul class="breadcrumps-list">
                     <li class="breadcrumps-list__item">
                         <a href="#" class="breadcrumps-list__link"></a>
                     </li>
@@ -98,20 +98,20 @@
                                     </div>
                             <!-- 		 -->
                                     <div class="form-group">
-                                        <input type="checkbox" name="" id="interskol">
+                                        <input type="checkbox" name="interskol" id="interskol">
                                         <label for="interskol">ИНТЕРСКОЛ</label>
                                     </div>
                             <!-- 		 -->
                                     <div class="form-group">
-                                        <input type="checkbox" name="" id="makita">
+                                        <input type="checkbox" name="makita" id="makita">
                                         <label for="makita">MAKITA</label>
                                     </div>
                                     <div class="form-group">
-                                            <input type="checkbox" name="" id="dewalt">
+                                            <input type="checkbox" name="dewalt" id="dewalt">
                                             <label for="dewalt">DEWALT</label>
                                         </div>
                                         <div class="form-group">
-                                                <input type="checkbox" name="" id="hitachi">
+                                                <input type="checkbox" name="hitachi" id="hitachi">
                                                 <label for="hitachi">HITACHI</label>
                                             </div>
                                 </fieldset>
@@ -139,9 +139,13 @@
                 <div class="catalog-result">
                     <div class="catalog-result-row1">
                         <div class="catalog-result-item">
-                           <img class="catalog-result-item__img" src="#" alt="bfg-3000">
+                           
                          <h3 class="catalog-result-item__head"><img src="img/bfg3000.jpg" alt=""> Перфоратор BOSCH BFG 3000</h3>
                            <p class="catalog-result-item__old-cost">22500р.</p>/<p class="catalog-result-item__new-cost">15500p.</p>
+                           <div class="visually-hidden item-order">
+                                <button type="submit" class="item-order item-order__to-cart">купить</button>
+                                <button type="submit" class="item-order item-order__to-bookmark">в закладки</button>
+                           </div>
                         </div>
                         <div class="catalog-result-item">
                             <img class="catalog-result-item__img" src="#" alt="bfg-6000">
@@ -158,8 +162,11 @@
                     <div class="catalog-result-row2">
                         <div class="catalog-result-item">
                             <img class="catalog-result-item__img" src="#" alt="bfg-3000">
-                            <h3 class="catalog-result-item__head"><img src="img/bfg3000.jpg" alt=""> Перфоратор BOSCH BFG 3000</h3>
-                            <p class="catalog-result-item__old-cost">22500р.</p>/<p class="catalog-result-item__new-cost">15500p.</p>
+                            <h3 class="catalog-result-item__head">
+                                <img src="img/bfg3000.jpg" alt="перфоратор бфг3000"> Перфоратор BOSCH BFG 3000
+                            </h3>
+                            <p class="catalog-result-item__old-cost">22500р.</p>
+                            <p class="catalog-result-item__new-cost">15500p.</p>
                         </div>
                         <div class="catalog-result-item catalog-result-item-new">
                             <img class="catalog-result-item__img" src="#" alt="bfg-6000">
